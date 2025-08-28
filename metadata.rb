@@ -1,8 +1,8 @@
 name 'cr_dbeaver-ce'
 maintainer 'Remi BONNET'
 maintainer_email 'prog.bontiv@gmail.com'
-license 'All Rights Reserved'
-description 'Installs/Configures cr_dbeaver-ce'
+license 'GPL-3.0'
+description 'Installs/Configures Dbeaver-ce'
 version '0.1.0'
 chef_version '>= 17.0'
 
