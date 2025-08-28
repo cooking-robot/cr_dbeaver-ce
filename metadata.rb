@@ -3,7 +3,7 @@ maintainer 'Remi BONNET'
 maintainer_email 'prog.bontiv@gmail.com'
 license 'GPL-3.0'
 description 'Installs/Configures Dbeaver-ce'
-version '0.1.0'
+version '0.1.1'
 chef_version '>= 17.0'
 
 # The `issues_url` points to the location where issues for this cookbook are
@@ -18,7 +18,7 @@ issues_url 'https://github.com/cooking-robot/cr_dbeaver-ce/issues'
 #
 source_url 'https://github.com/cooking-robot/cr_dbeaver-ce'
 
-platform 'windows'
-platform 'mac_os_x'
-platform 'ubuntu'
-platform 'debian'
+supports 'windows'
+supports 'mac_os_x'
+supports 'ubuntu'
+supports 'debian'
